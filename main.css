@@ -842,6 +842,86 @@ footer span a:hover {
     }
 }
 
+@media (max-width: 768px) {
+    .navbar .menu li a {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 35px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 20px;
+    }
+
+    .about .about-content .left img {
+        height: 200px;
+        width: 250px;
+    }
+
+    .services .services-content .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .skills .skills-content .right .bar .info span {
+        font-size: 14px;
+    }
+
+    .contact .contact-content .column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact .right form .field input,
+    .contact .right form .textarea textarea {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar .menu li a {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 28px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 18px;
+    }
+
+    .about .about-content .left img {
+        height: 150px;
+        width: 200px;
+    }
+
+    .services .services-content .card {
+        padding: 15px;
+    }
+
+    .skills .skills-content .right .bar .info span {
+        font-size: 12px;
+    }
+
+    .contact .right form .field input,
+    .contact .right form .textarea textarea {
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
 @media (max-width: 470px) {
     .max-width {
         padding: 0 20px;
